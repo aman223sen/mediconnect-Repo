@@ -9,7 +9,8 @@ import java.util.Properties;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
-
+import org.springframework.stereotype.Component;
+@Component
 public class DatabaseConnectionManager {
 
     private static final Properties properties = new Properties();
